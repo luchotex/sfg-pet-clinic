@@ -6,14 +6,14 @@ import java.util.Set;
  * Created by Luis
  * on 12/08/2018.
  */
-public interface CrudService <T, ID> {
+public interface CrudService<T, ID> {
 
     Set<T> findAll();
 
 
     T findById(ID id);
 
-    T save (T object);
+    T save(T object);
 
     void delete(T object);
 
