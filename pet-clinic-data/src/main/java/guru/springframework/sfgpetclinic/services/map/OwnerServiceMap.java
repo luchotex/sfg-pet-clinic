@@ -28,6 +28,8 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
         return super.save(object);
     }
 
+
+
     @Override
     public void delete(Owner object) {
         super.delete(object);
